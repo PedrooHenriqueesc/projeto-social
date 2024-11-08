@@ -26,11 +26,27 @@ transform: translate(-50%,-50%);
 height: 627px;
 width: 311px;
 background: url('../imagens/Design\ sem\ nome\ -frame.png') no-repeat;
+
 }
 iframe#tela{
     position: relative;
     top: 78px;
     left: 24px;
-    height: 471px;
-    width: 264px;
+    height: 472px;
+    width: 263px;
+}
+section#apps{
+    text-align: right;
+    padding: 15px;
+}
+section#apps img{
+    width: 50px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.671);
+    box-sizing: border-box;
+}
+section#apps img:hover{
+    border: 2px solid white;
+    transition: 0.2s;
 }
